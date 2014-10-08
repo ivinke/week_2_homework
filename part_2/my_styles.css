@@ -6,58 +6,39 @@
   border: thin red solid;
 }
 
-h1{background-color: lightgrey;
-    height:200px;
+h1{
+  background-color: lightgrey;
+  height:200px;
 }
 
-.column {
+.row{
+      float: left;
+      width: 100%;
+      padding: 10px;
+}
+
+
+.column{
       float: left;
       width: 33%;
       padding: 10px;
 }
-
-.bluebox {
-      border-radius: 20px;
-      background-color: blue;
-      color:white;
-      float: center;
-}
-
-.column2 {
+.column2{
       float: left;
       width: 25%;
       padding: 10px;
 }
-
 .column3{
       float: left;
       width: 66%;
       padding: 10px;
-      height:400px;
-
 }
 
-.column4{
-      float: left;
-      width: 33%;
-      padding: 10px;
-      height:400px;
-
+.bluebox{
+    color:white;
+    border-radius: 20px;
+    background-color: blue;
+    margin: 20px;
 }
 
-.card {
-      border: 1px rgba(150, 0, 50, 1) solid;
-    }
-
-.avatar{
-    margin-bottom: auto;
-
-}
-
-.column5{
-      float: left;
-      width: 100%;
-      padding: 10px;
-      height:40px;
-}
 
