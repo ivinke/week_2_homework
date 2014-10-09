@@ -37,6 +37,10 @@ h1{
     border-radius: 20px;
     background-color: blue;
     margin: 20px;
+    display:table-cell;
+    height:30px;
+    width:150px;
+    text-align: center;
 }
 
 
